@@ -32,7 +32,7 @@ const dataList = [
     ],
   },
   {
-    groupName: "Frameworks",
+    groupName: "API",
     items: [
       { title: "Facebook API", percent: 90 },
       { title: "Google Maps Api", percent: 100 },
@@ -60,7 +60,7 @@ const dataList = [
     ],
   },
   {
-    groupName: "Frameworks",
+    groupName: "DevOps",
     items: [
       { title: "Nodejs - PM2", percent: 95 },
       { title: "IIS", percent: 100 },
