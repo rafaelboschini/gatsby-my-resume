@@ -4,6 +4,8 @@
 
 🧾 This is my first basic project in Gatsby, I create a basic componentized project with sass to learn how gatsby works.
 
+![](https://github.com/rafaelboschini/gatsby-my-resume/blob/master/src/images/gatsby-my-resume.png?raw=true)
+
 ## 🔨 Development server
 
 Run `npm start` for a dev server. Navigate to `http://localhost:8000/`.
