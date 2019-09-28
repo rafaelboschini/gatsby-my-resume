@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby - My Resume Example`,
-    description: `A simple example of my resume in Gatsby with sass`,
+    description: `A simple example of my resume in Gatsby / React`,
     author: `rafaelboschini`,
   },
   plugins: [
