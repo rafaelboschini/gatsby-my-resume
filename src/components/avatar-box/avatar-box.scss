@@ -1,0 +1,10 @@
+@import '../../styles/variables';
+
+.avatar-container{
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: $animation-fadein;
+}

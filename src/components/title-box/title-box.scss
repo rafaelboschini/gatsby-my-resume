@@ -1,0 +1,30 @@
+@import '../../styles/variables';
+
+$letter-spacing: 3px;
+
+.title-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: $gutter-box;
+    animation: $animation-fadein;
+
+    .name {
+        font-size: 1rem;
+        line-height: 18px;
+        font-family: $font-light;
+        letter-spacing: $letter-spacing - 2px;
+    }
+
+    strong {
+        font-size: 2rem;
+        line-height: 35px;
+        font-family: $font-strong;
+        letter-spacing: $letter-spacing;
+    }
+
+    .subtitle {
+        font-size: .8rem;
+        font-family: $font-light;
+        letter-spacing: $letter-spacing;
+    }
+}

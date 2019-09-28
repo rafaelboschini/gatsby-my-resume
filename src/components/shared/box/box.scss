@@ -1,0 +1,18 @@
+.box {
+    padding: 15px;
+
+    &.white {
+        background-color: #fff;
+        color: #616161;
+    }
+
+    &.gray {
+        background-color: #616161;
+        color: #fff;
+    }
+
+    &.lightblue {
+        background-color: #7EAFDB;
+        color: #fff;
+    }
+}

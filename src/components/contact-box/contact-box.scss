@@ -1,0 +1,42 @@
+@import '../../styles/variables';
+
+.contact-box {
+    margin-top: $gutter-box;
+    animation: $animation-fadein;
+    
+    .title {
+        border-bottom: solid 1px #ffffff;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        font-family: $font-strong;
+        font-size: 1.2rem;
+        letter-spacing: .1rem;
+
+        &-box {
+            &__item { 
+                display: flex;
+                margin-bottom: 10px;
+                color: #fff;
+
+                .icon {
+                    svg {
+                        font-size: 1.2rem;
+                        margin-right: 5px;
+                    }
+                }
+
+                .label{
+                    a:hover,
+                    a:visited,
+                    a {
+                        color: #ffffff;
+                        text-decoration: none;
+                        font-size: .9.5rem;
+                        font-family: $font-light;
+                    }
+                }
+
+            }
+        }
+    }
+}
