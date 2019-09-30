@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700|Source+Sans+Pro&display=swap');
+@import '../../styles/variables';
+
+html {
+  font-family: 'Roboto Mono', monospace;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #E8E8E7;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  min-width: 770px;
+}
+
+@media only screen and (max-width: $width-mobile) {
+  .main-container {
+      flex-direction: column;
+      max-width: 1024px;
+      min-width: 320px;
+  }
+}
