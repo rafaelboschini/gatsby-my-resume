@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gatsby-my-resume",
   siteMetadata: {
     title: `Gatsby - My Resume Example`,
     description: `A simple example of my resume in Gatsby / React`,
@@ -32,4 +33,5 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+  
 }
